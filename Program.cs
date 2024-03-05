@@ -53,7 +53,7 @@ namespace Midterm
 
         public void PrintDetails()
         {
-            Console.WriteLine($"Name: {name}");
+            Console.WriteLine($"Name: {name}"); 
             Console.WriteLine($"ID: {id}");
             Console.WriteLine($"Price: {price:C}");
             Console.WriteLine($"Quantity: {quantity}");
