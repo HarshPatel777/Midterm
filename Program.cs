@@ -6,7 +6,7 @@ namespace Midterm
 {
  
     class InventoryItem
-    {
+    { 
         private string name;
         private int id;
         private double price;
