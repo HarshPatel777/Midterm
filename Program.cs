@@ -29,7 +29,7 @@ namespace Midterm
 
         public void RestockItem(int additionalQuantity)
         {
-            this.quantity += additionalQuantity;
+            this.quantity += additionalQuantity; 
             Console.WriteLine($"{additionalQuantity} {name}(s) added to stock. Total quantity: {quantity}");
         }
 
