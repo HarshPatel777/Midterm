@@ -48,7 +48,7 @@ namespace Midterm
 
         public bool IsInStock()
         {
-            return quantity > 0;
+            return quantity > 0; 
         }
 
         public void PrintDetails()
