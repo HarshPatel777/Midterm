@@ -78,7 +78,7 @@ class Program
                 item1.PrintDetails();
 
                 // Restock items
-                item2.RestockItem(20);
+                item2.RestockItem(20); 
                 Console.WriteLine("\nDetails after restocking:");
                 item2.PrintDetails();
 
