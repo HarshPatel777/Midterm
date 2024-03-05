@@ -23,7 +23,7 @@ namespace Midterm
 
         public void UpdatePrice(double newPrice)
         {
-            this.price = newPrice;
+            this.price = newPrice; 
             Console.WriteLine($"Price of {name} updated to {newPrice:C}");
         }
 
