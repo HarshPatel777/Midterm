@@ -37,7 +37,7 @@ namespace Midterm
         {
             if (quantity >= quantitySold)
             {
-                this.quantity -= quantitySold;
+                this.quantity -= quantitySold; 
                 Console.WriteLine($"{quantitySold} {name}(s) sold. Remaining quantity: {quantity}");
             }
             else
